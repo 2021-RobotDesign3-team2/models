@@ -16,16 +16,16 @@
       </inertial>
       <collision name="collision">
         <geometry>
-          <box>
-            <size>0.15 0.27 0.04</size>
-          </box>
+          <mesh>
+            <uri>model://flypan/flypan_a.dae</uri>
+          </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box>
-            <size>0.15 0.27 0.04</size>
-          </box>
+          <mesh>
+            <uri>model://flypan/flypan_a.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
