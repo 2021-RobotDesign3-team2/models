@@ -4,27 +4,27 @@
   <pose>0 0 0.5 0 0 0</pose>
     <link name="link">
       <inertial>
-        <mass>0.2</mass>
+        <mass>0.02</mass>
         <inertia>
-          <ixx>2.35e-05</ixx>
+          <ixx>0.002556195217</ixx>
           <ixy>0.0</ixy>
           <ixz>0.0</ixz>
-          <iyy>2.35e-05</iyy>
+          <iyy>0.000318732456</iyy>
           <iyz>0.0</iyz>
-          <izz>2.35e-05</izz>
+          <izz>0.002542478016</izz>
         </inertia>
       </inertial>
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://flypan/flypan_a.dae</uri>
+            <uri>model://flypan/flypan_50x40.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://flypan/flypan_a.dae</uri>
+            <uri>model://flypan/flypan_50x40.dae</uri>
           </mesh>
         </geometry>
       </visual>
